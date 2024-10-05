@@ -1,5 +1,5 @@
 /*
-Given an integral number, determine if it's a square number
+  Given an integral number, determine if it's a square number
 */
 
 var isSquare = function(n){
