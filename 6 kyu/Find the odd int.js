@@ -5,7 +5,7 @@
 */
 
 function findOdd(A) {
-    let map = new Map();
+    const map = new Map();
     
     A.forEach(num => {
       if(!map.has(num)) {
@@ -13,8 +13,7 @@ function findOdd(A) {
       }
       
       else {
-        let count = map.get(num) + 1;
-        map.set(num, count)
+        map.set(num, map.get(num) + 1);
       }
     });
     
